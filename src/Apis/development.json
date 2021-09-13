@@ -1,0 +1,24 @@
+{
+    "restApis": {
+        "getTodoList": {
+            "url": "https://n7x9otok8e.execute-api.us-east-1.amazonaws.com/dev/mytodos",
+            "type": "get"
+        },
+        "getsingleTodo": {
+            "url": "https://n7x9otok8e.execute-api.us-east-1.amazonaws.com/dev/mytodos/",
+            "type": "get"
+        },
+        "postTodo": {
+            "url": "https://n7x9otok8e.execute-api.us-east-1.amazonaws.com/dev/mytodos",
+            "type": "post"
+        },
+        "updateTodo": {
+            "url": "https://n7x9otok8e.execute-api.us-east-1.amazonaws.com/dev/mytodos",
+            "type": "put"
+        },
+        "deleteTodo": {
+            "url": "https://n7x9otok8e.execute-api.us-east-1.amazonaws.com/dev/mytodos/",
+            "type": "delete"
+        }
+    }
+}
